@@ -3,7 +3,7 @@
 //1
 void arrInput(int **arr,int n) {
     *arr = (int *)malloc(n * sizeof(int));
-    if (*arr == NULL) {  // Kiểm tra cấp phát thành công
+    if (*arr == NULL) {  
         printf("Không thể cấp phát bộ nhớ!\n");
         exit(1);
     }
